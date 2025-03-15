@@ -1,9 +1,144 @@
+/*Top Bar*/
+/*DONE*/
 .top-Bar-Container {
   position: fixed;
   display: flex;
   flex-direction: row;
   width: 1150px;
+  max-height: 32px;
   border-style: solid;
   border-color: black;
+  background-color: black;
   border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Spotify Logo*/
+/*DONE*/
+.spotifyLogoContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+/*DONE*/
+.spotifyLogo {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-style: solid ;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 50%;
+}
+
+/*Home and Search Bar */ 
+/*DONE*/
+.homeAndSearchBarContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  align-items: center;
+}
+
+/*DONE*/
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*DONE*/
+.homeLogo {
+  width: 16px;
+  height: 16px;
+  border-style: solid ;
+  border-width: 1px;
+  border-color: rgb(50, 50, 50);
+  border-radius: 50%;
+}
+
+/*DONE*/
+.searchBarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 280px;
+  height: 16px;
+  max-width: 300px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*Logo picture needs to be revised*/
+.searchLogo {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/*DONE*/
+.searchBar {
+  margin-left: 5px;
+  padding: 0;
+  border-style: none;
+  border-color: none;
+  background-color: black;
+  color: white;
+  height: 10px;
+  width: 250px;
+  border-right-style: solid;
+  border-color: white;
+  border-right-width: 1px;
+}
+.searchBar:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*Browse Logo*/
+/*DONE*/
+.browseContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*DONE*/
+.browse {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/*Install, notifications, and profile container*/
+.installNotificationsProfileContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.installContainer {
+  align-items: center;
+}
+
+.install {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
 }
