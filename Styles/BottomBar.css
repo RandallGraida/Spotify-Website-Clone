@@ -1,0 +1,13 @@
+.bottomBarContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20px;
+  top: 400px;
+  left: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: black;
+}

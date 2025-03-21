@@ -8,15 +8,11 @@ body {
   position: fixed;
   display: flex;
   flex-direction: row;
-  width: 1150px;
-  height: 44px;
-  max-height: 44px;
+  width: 100%;
   border-style: solid;
   border-color: black;
   background-color: black;
   border-width: 1px;
-  padding-top: 3px;
-  padding-bottom: 3px;
   padding-left: 20px;
   padding-right: 10px;
   align-items: center;
@@ -50,8 +46,6 @@ body {
   flex-direction: row;
   flex: 2;
   align-items: center;
-  padding-left: 80px;
-  padding-right: 0px;
 }
 
 /*DONE*/
@@ -63,13 +57,10 @@ body {
 
 /*DONE*/
 .homeLogo {
-  width: 34px;
-  height: 34px;
   border-style: solid ;
   border-width: 1px;
   border-color: rgb(50, 50, 50);
   border-radius: 50%;
-  margin-left: 50px;
 }
 
 /*DONE*/
@@ -77,13 +68,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left:7px;
   background-color: gray;
   border-width: 1px;
-  width: 369px;
-  height: 38px;
-  max-width: 369px;
   border-radius: 18px;
+  border-style: solid;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -164,8 +152,7 @@ body {
 
 /*DONE*/
 .installText {
-  color: gray;
-  margin-left: 8px;
+  color: white;
   font-size: 11px;
 }
 
@@ -182,7 +169,6 @@ body {
   height: 16px;
   background-color: black;
   border-radius: 50%;
-  margin-left: 32px;
 }
 
 /*Profile picture*/
@@ -191,7 +177,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 20px;
 }
 
 /*DONE*/
